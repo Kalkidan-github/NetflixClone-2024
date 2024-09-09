@@ -7,6 +7,7 @@ import './footer.css';
 
 const Footer = () => {
   return (
+    <>
     <div className='footer_outer_container'>
       <div className='footer_inner_container'>
         <div className='footer_icon'>
@@ -20,7 +21,9 @@ const Footer = () => {
           <ul>
             <li> Audio Description </li>
             <li> Investor Relations </li>
-            <li> Legal Notice </li>
+              <li> Legal Notice </li>
+              <li> &copy;1997-2004</li>
+              <li className='service_code'> Service Code </li>
         </ul>
         </div>
         </div>
@@ -46,16 +49,18 @@ const Footer = () => {
           </ul>
         </div>
         
-        <div className='service_code'>
+        {/* <div className='service_code'> */}
         <p>
-            Service Code
+            {/* Service Code */}
         </p>
        </div> 
-          <div className='copy-write'>
+          {/* <div className='copy-write'>
             &copy; 1997-2024 Netflix, inc,
-          </div>
-    </div>
-   
+          </div> */}
+      {/* </div> */}
+      
+      
+   </>
       
   )
 }
