@@ -11,25 +11,6 @@ const requests = {
     fetchTvShow: `tv/popular?api_key=${API_KEY}&language=en-US&page=1`
 
 };
+//https://api.themoviedb.org/3/discover/movie?api_key=572f526d6bceeb84011f0c638fead189 & include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc"
 
-
-
-
-// import React, { Component } from 'react'
-// import PropTypes from 'prop-types'
-
-// export class requests extends Component {
-//   static propTypes = {
-
-//   }
-
-//   render() {
-//     return (
-//       <div>
-        
-//       </div>
-//     )
-//   }
-// }
-
-export default requests
+export default requests;

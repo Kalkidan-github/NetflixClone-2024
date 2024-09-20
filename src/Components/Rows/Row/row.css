@@ -1,0 +1,42 @@
+/* *img{
+    width: 100%;
+} */
+
+.row__poster {
+    width: 100%;
+    /* display: flex; */
+    object-fit: contain;
+    max-height: 100px;
+    transition: transform 450ms;
+    margin-right: 10PX;
+}
+.row__posters{
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    /* padding: 20px; */
+    scrollbar-width: none;
+}
+.row__poster::-webkit-scrollbar{
+    display: none;
+}
+.row__poster:hover{
+transform: scale(1.08);
+}
+.row__posterLarge{
+    max-height: 250px;
+}
+.row__posterLarge :hover{
+    transform: scale(1.09);
+}
+.row{
+    margin-left: 20PX;
+    color: white;
+}
+h1 {
+    color: white
+}
+/* .row__poster ::-webkit-scrollbar {
+    
+  display: none;
+} */
